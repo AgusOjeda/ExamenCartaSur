@@ -1,0 +1,42 @@
+[
+    {
+        "Nombre": "David",
+        "Apellido": "García",
+        "Estado": "Activo"
+    },
+    {
+        "Nombre": "Laura",
+        "Apellido": "Pérez",
+        "Estado": "Inactivo"
+    },
+    {
+        "Nombre": "Carlos",
+        "Apellido": "López",
+        "Estado": "Activo"
+    },
+    {
+        "Nombre": "María",
+        "Apellido": "Fernández",
+        "Estado": "Inactivo"
+    },
+    {
+        "Nombre": "Pedro",
+        "Apellido": "Martínez",
+        "Estado": "Activo"
+    },
+    {
+        "Nombre": "Sofía",
+        "Apellido": "González",
+        "Estado": "Inactivo"
+    },
+    {
+        "Nombre": "Andrés",
+        "Apellido": "Hernández",
+        "Estado": "Activo"
+    },
+    {
+        "Nombre": "Ana",
+        "Apellido": "Vargas",
+        "Estado": "Activo"
+    }
+]

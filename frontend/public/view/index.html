@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba CartaSur</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="informacion">
+      <div class="EstadoServicioCard">
+        <h2>Estado del Servicio</h2>
+        <p id="status">Cargando...</p>
+      </div>
+      <div>
+        <section class="active container-status">
+          <p>Empleados Activos</p>
+          <p id="empleadosActivos">
+          <p>
+        </section>
+        <!-- Seccion de empleados inactivos -->
+        <section class="inactive container-status">
+          <p>Empleados Inactivos</p>
+          <p id="empleadoInactivos">
+          <p>
+        </section>
+      </div>
+    </section>
+    <section class="table" id="tablaEmpleados">
+      
+      <div>
+        <h2>Información de Empleados</h2>
+        <button id="openModal">Agregar empleado</button>
+      </div>
+      <table>
+        <thead id="thead">
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody id="empleadosLista">
+        </tbody>
+      </table>
+    </section>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <form id="formNuevoEmpleado">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+        </div>
+
+        <div class="form-group">
+          <label for="estado">Estado:</label>
+          <select id="estado" name="estado">
+            <option value="Inactivo" selected>Inactivo</option>
+            <option value="Activo">Activo</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btnEnviar">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  
+  <script type="module" src="../js/init.js"></script>
+</body>
+
+</html>
